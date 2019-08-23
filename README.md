@@ -101,3 +101,11 @@ Then, I have a crontab that pipes this into netcat as above: `* * * * * /home/dg
 Next, I went onto Grafana, created a dashboard, and played around with settings to get this:
 
 ![Lab conditions dashboard](temphum.png)
+
+## TODO
+
+* Storage retention policies.
+* Data backup.
+* Firewall rules.
+* HTTPS.
+* More data feeds.
