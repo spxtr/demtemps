@@ -5,7 +5,8 @@
 I modified [this guide](https://www.linode.com/docs/uptime/monitoring/install-graphite-and-grafana/) for much of this. You will want to do this on a Linux machine. Technically it should be possible on Windows or Mac OS by using Docker, but I've always struggled to make those work well.
 
 1. Install [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/). Docker is not strictly necessary, but it makes the next steps much simpler.
-1. Run `mkdir ~/grafana && cd ~/grafana`. Copy the following YAML spec into `docker-compose.yml` in the folder you just made. ```yaml
+1. Run `mkdir ~/grafana && cd ~/grafana`. Copy the following YAML spec into `docker-compose.yml` in the folder you just made.
+```yaml
 version: "3"
 services:
   grafana:
